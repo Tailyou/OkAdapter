@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hengda.frame.commonadapter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GvAndVpActivity"
+            android:label="GridView &amp; ViewPage" />
+        <activity
+            android:name=".LvActivity"
+            android:label="ListView Activity" />
+        <activity
+            android:name=".MultiItemLvActivity"
+            android:label="MultiItem ListView Activity" />
+        <activity
+            android:name=".RvActivity"
+            android:label="Recycler Activity" />
+        <activity
+            android:name=".MultiItemRvActivity"
+            android:label="MultiItem Recycler Activity" />
+        <activity
+            android:name=".SectionRvActivity"
+            android:label="Section Recycler Activity" />
+    </application>
+
+</manifest>

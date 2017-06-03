@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.hengda.frame.commonadapter.MainActivity">
+
+    <Button
+        android:id="@+id/gvAndVp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GridView &amp; ViewPage"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/sLv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/mLv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multi-Item-ListView"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/sRv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/mRv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multi-Item-RecyclerView"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/sectionRv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Section-RecyclerView"
+        android:textAllCaps="false" />
+
+</LinearLayout>

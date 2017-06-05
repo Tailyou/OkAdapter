@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+/*apply plugin: 'com.novoda.bintray-release'
 
 publish {
     userOrg = 'hdandroidteam'
@@ -11,7 +11,7 @@ publish {
 
     bintrayUser = 'hdandroidteam'
     bintrayKey = '73d6b8e5010a405d8e5dabea6e235fe913177f89'
-}
+}*/
 
 android {
     compileSdkVersion 25
